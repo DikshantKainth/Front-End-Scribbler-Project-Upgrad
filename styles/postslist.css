@@ -52,8 +52,7 @@
 .blogDesc{
     overflow: hidden; 
     white-space: normal; 
-    height: 4.8em;  
-    /* text-overflow: -o-ellipsis-lastline;  */
+    height: 4.5em;  
 }
 
 .delete{

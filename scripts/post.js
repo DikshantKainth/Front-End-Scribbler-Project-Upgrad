@@ -67,7 +67,12 @@ function comments(comment) {
                     var node = document.createElement("p");
                     var textnode = document.createTextNode(commentVal);
                     node.appendChild(textnode);
-                    document.getElementById("comments").appendChild(node);
+                    //document.getElementById("comments").appendChild(node);
+                    
+                    var list = document.getElementById("comments");
+                    list.insertBefore(node, list.childNodes[0]);
+
+
                     document.getElementById('addComment').value = '';
             }
     }
